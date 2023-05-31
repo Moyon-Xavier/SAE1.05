@@ -1,0 +1,24 @@
+footer{
+    background-color: rgba(245, 234, 234, 0.881);
+}
+footer>section{
+    display: inline;
+    
+}
+footer>section>a{
+    color: black;
+    font-size:medium;
+    
+}
+footer>section>a:hover{
+    color: red;
+
+}
+
+footer>img{
+    width: 200px;
+    height: 50px;
+}
+footer{
+    height: 200px;
+}

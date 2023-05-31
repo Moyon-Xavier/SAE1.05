@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-columns: 100%;
+     grid-template-rows: 75px 1000px 100px;
+     grid-gap: 10px;
+}
+
+header{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#Corps{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#Envoyer{
+    grid-column: 2;
+}
+#messagerie{
+    display:flexbox;
+    grid-column: 1;
+    flex-direction: column;
+
+}
+#Messages{
+    display:flexbox;
+    flex-direction: column;
+    
+}
+#Messages>img{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+#Messages>a{
+    grid-column: 3;
+    grid-row: 2;
+
+}
+
+
+
